@@ -1,0 +1,368 @@
+/*Patrones globales*/
+
+h1, h2, h3, a, button { font-family: 'Roboto', sans-serif; }
+
+h4, h5, h6, p, form, input, select, textarea, option, table,tr, th, td, span, div, strong, em { font-family: 'Source Sans Pro', sans-serif;}
+
+header, main, footer, aside, section, article, figure, nav, figcaption, div { display: block }
+
+body { margin: 0 !important; }
+
+/* Quitar Scroll Horizontal*/
+
+body { overflow-x: hidden; background: #0a0a0a;}
+
+
+/*Estilo de CSS (INVENTARIO) */
+
+
+/*ASIDE*/
+
+aside#menu-movil {  width: 290px ; display: block; height: 100%; margin: 0; float: none; position: fixed; top: 0; right: -290; z-index: 99999; background: rgb(10 10 10); z-index: 99999; }
+
+aside#menu-movil a#abrir { width: 82px; height: auto; display: block; margin: 0; float: none; position: absolute; top: 18px; left: -105px; z-index: 99996; text-align: center; font-size: 1em; padding: 8px 0; text-decoration: none; transition: all 0.3s ease-in; color: #fff;  }
+aside#menu-movil a#abrir span { color: #fff; font-size: 16px; padding: 0 5px 0 0; letter-spacing: 0.1em; font-weight: 500; transition: all 0.3s ease-in;}
+
+
+aside#menu-movil a#abrir:hover { transition: all 0.3s ease-in; color: #505050; }
+aside#menu-movil a#abrir:hover span { transition: all 0.3s ease-in; color: #505050; }
+
+aside#menu-movil a#cerrar { width: 40px; height: auto; display: block; margin: 0; float: left; position: absolute; top: 14px; left: 20px; color: #fff; text-align: center; font-size: 1.3em; padding: 8px 0; transition: all 0.3s ease-in; z-index: 99997; }
+
+
+aside#menu-movil a#cerrar:hover { transition: all 0.3s ease-in; color: #505050; }
+
+aside#menu-movil nav { width: 190px; height: auto; position: relative; float: none; margin: 0 auto; padding: 130px 0 0;}
+aside#menu-movil nav a { font-size: 14px; color: #fff; text-decoration: none; font-weight: 400; text-transform: uppercase; text-align: center; float: none; display: block; letter-spacing: 0.3em; padding: 14px 0; }
+aside#menu-movil nav hr { border: solid 0.01em #333333; }
+
+aside#menu-movil nav a#get-started { padding: 18px 28px; width: 135px; text-align: center; display: block; float: none; margin: 22px auto; background: #fff; color: #0a0a0a; transition: all 0.3s ease-in; font-weight: 600; letter-spacing: 0.1em;}
+aside#menu-movil nav a#log-in { padding: 18px 28px; width: 135px; text-align: center; display: block; float: none; margin: 22px auto; background: #0a0a0a; border: solid 2px #fff; transition: all 0.3s ease-in; }
+
+aside#menu-movil nav a#get-started:hover { transition: all 0.3s ease-in; background: #505050; }
+aside#menu-movil nav a#log-in:hover { transition: all 0.3s ease-in; border: solid 2px #505050; color: #505050;}
+
+aside#menu-movil nav a:hover {transition: all 0.3s ease-in; color: #505050; }
+
+
+/*HEADER*/ 
+
+header { width: 100%; height: 60px; position: fixed; margin: 0; float: none; top: 0; z-index: 99998; background: #0a0a0a; }
+
+header article { width: 1300px; height: 60px; position: relative; margin: 0 auto; float: none; }
+
+header article a.logo { width: auto; height: auto; color: #fff; text-decoration: none; text-transform: uppercase; letter-spacing: 0.2em; font-size: 16px; float: left; padding: 20px 10px; transition: all 0.3s ease-in;}
+header article a.logo strong { color: #0a0a0a; background: #fff; padding: 2px 0px 2px 4px; transition: all 0.3s ease-in;}
+
+header article a.logo:hover { transition: all 0.3s ease-in; color: #505050; }
+header article a.logo:hover strong { transition: all 0.3s ease-in; background: #505050;}
+
+.transparente { background: hsla(238, 43%, 17%, 0) ;}
+.gris { background: hsl(0, 0%, 6%) ;}
+
+/*MAIN*/
+
+/*Section:Introduccion*/
+
+main { width: 100%; height: auto; position: relative; float: none; margin: 0 auto; top: -18px; }
+
+main section#introduccion { width: 100%; height: auto; position: relative; margin: 0; float: none; background: url(../img/img-fondo.jpg) no-repeat center center;}
+main section#introduccion article { width: 1200px; height: 550px; position: relative; margin: 0 auto; float: none; }
+main section#introduccion article h1 { color: #fff; font-size: 60px; font-weight: 500; letter-spacing: 0.02em; margin: 0; padding: 185px 0 30px; }
+
+
+main section#introduccion article div#texto { width: 696px; height: 50px; position: relative; float: left; margin: 36px 0 0;  }
+main section#introduccion article div#texto p { width: 455px; float: left; color: #fff; font-size: 14px; letter-spacing: 0.2em; line-height: 1.6em; padding: 0px 28px 0 0; display: block; margin: 0; }
+main section#introduccion article div#texto a { color: #fff; text-decoration: none; font-size: 14px; font-weight: 450; text-transform: uppercase; letter-spacing: 0.25em; margin: 0px 0; display: block; width: 149px; height: auto; float: left; padding: 15px 30px; border: solid 2px #fff; transition: all 0.3s ease-in; }
+
+
+main section#introduccion article div#texto a:hover { transition: all 0.3s ease-in; border: solid 2px #505050; color: #505050;}
+
+/*Section:Enlaces*/
+
+main section#enlaces-01 { width: 100%; height: auto; position: relative; float: none; margin: 0;}
+
+main section#enlaces-01 nav { width: 100%; height: 450px; position: relative; float: none; margin: 0;}
+main section#enlaces-01 nav a#img-01 { width: 40%; height: 100%; position: relative; float: left; margin: 0; overflow: hidden; background: url(../img/img-01.jpg) no-repeat center center; background-size: cover;}
+
+main section#enlaces-01 nav a#img-01 div { width: 200px; height: auto; position: absolute; top: 174px; left: 80px; z-index: 3;}
+main section#enlaces-01 nav a#img-01 div h3 { font-size: 33px; color: #fff; margin: 0; font-weight: 500; letter-spacing: 0.05em; padding: 0 0 10px 0; }
+main section#enlaces-01 nav a#img-01 div hr { color: #fff; border: solid 1px; margin: 0 0 15px 0; }
+main section#enlaces-01 nav a#img-01 div span { color: #fff; font-size: 14px; letter-spacing: 0.15em; text-transform: uppercase; font-weight: 600; }
+
+main section#enlaces-01 nav a#img-01 div#fondo-celeste {  width: 100%; height: 100%; display: block; margin: 0 auto; float: none; position: absolute; top: 0; left: 0; z-index: 1; background: rgb(55 144 158 / 80%); transition: all 0.3s ease-in;}
+main section#enlaces-01 nav a#img-01:hover div#fondo-celeste { transition: all 0.3s ease-in; opacity: 0; }
+
+
+main section#enlaces-01 nav a#img-02 { width: 60%; height: 100%; position: relative; float: left; margin: 0; overflow: hidden; background: url(../img/img-02.jpg) no-repeat center center; background-size: cover;}
+
+main section#enlaces-01 nav a#img-02 div { width: 200px; height: auto; position: absolute; top: 174px; left: 80px; z-index: 3;}
+main section#enlaces-01 nav a#img-02 div h3 { font-size: 33px; color: #fff; margin: 0; font-weight: 500; letter-spacing: 0.05em; padding: 0 0 10px 0; }
+main section#enlaces-01 nav a#img-02 div hr { color: #fff; border: solid 1px; margin: 0 0 15px 0;}
+main section#enlaces-01 nav a#img-02 div span { color: #fff; font-size: 14px; letter-spacing: 0.15em; text-transform: uppercase; font-weight: 600;}
+
+main section#enlaces-01 nav a#img-02 div#fondo-lila {  width: 100%; height: 100%; display: block; margin: 0 auto; float: none; position: absolute; top: 0; left: 0; z-index: 1; background: rgb(138 94 185 / 80%); transition: all 0.3s ease-in;}
+
+main section#enlaces-01 nav a#img-02:hover div#fondo-lila { transition: all 0.3s ease-in; opacity: 0;}
+
+/*Section 2*/
+
+main section#enlaces-02 { width: 100%; height: auto; position: relative; float: none; margin: 0; }
+main section#enlaces-02 nav { width: 100%; height: 450px; position: relative; float: none; margin: 0; }
+main section#enlaces-02 nav a#img-03 { width: 55%; height: 100%; position: relative; float: left; margin: 0; overflow: hidden; background: url(../img/img-03.jpg) no-repeat center center; background-size: cover; }
+
+main section#enlaces-02 nav a#img-03 div {width: 200px; height: auto; position: absolute; top: 174px; left: 80px; z-index: 3; }
+main section#enlaces-02 nav a#img-03 div h3 { font-size: 33px; color: #fff; margin: 0; font-weight: 500; letter-spacing: 0.05em; padding: 0 0 10px 0; }
+main section#enlaces-02 nav a#img-03 div hr { color: #fff; border: solid 1px; margin: 0 0 15px 0; }
+main section#enlaces-02 nav a#img-03 div span { color: #fff; font-size: 14px; letter-spacing: 0.15em; text-transform: uppercase; font-weight: 600; }
+
+main section#enlaces-02 nav a#img-03 div#fondo-rosa {  width: 100%; height: 100%; display: block; margin: 0 auto; float: none; position: absolute; top: 0; left: 0; z-index: 1; background: rgb(249 145 140 / 80%); transition: all 0.3s ease-in; }
+
+main section#enlaces-02 nav a#img-03:hover div#fondo-rosa { transition: all 0.3s ease-in; opacity: 0;}
+
+main section#enlaces-02 nav a#img-04 { width: 45%; height: 100%; position: relative; float: left; margin: 0; overflow: hidden; background: url(../img/img-04.jpg) no-repeat center center; background-size: cover;}
+
+main section#enlaces-02 nav a#img-04 div { width: 200px; height: auto; position: absolute; top: 174px; left: 80px; z-index: 3;}
+main section#enlaces-02 nav a#img-04 div h3 { font-size: 33px; color: #fff; margin: 0; font-weight: 500; letter-spacing: 0.05em; padding: 0 0 10px 0; }
+main section#enlaces-02 nav a#img-04 div hr { color: #fff; border: solid 1px; margin: 0 0 15px 0; }
+main section#enlaces-02 nav a#img-04 div span { color: #fff; font-size: 14px; letter-spacing: 0.15em; text-transform: uppercase; font-weight: 600; }
+
+main section#enlaces-02 nav a#img-04 div#fondo-amarillo {  width: 100%; height: 100%; display: block; margin: 0 auto; float: none; position: absolute; top: 0; left: 0; z-index: 1; background: rgb(253 187 89 / 80%); transition: all 0.3s ease-in;}
+
+main section#enlaces-02 nav a#img-04:hover div#fondo-amarillo { transition: all 0.3s ease-in; opacity: 0;}
+
+
+/*Section 3*/
+main section#enlaces-03 { width: 100%; height: auto; position: relative; float: none; margin: 0; }
+main section#enlaces-03 nav { width: 100%; height: 450px; position: relative; float: none; margin: 0;}
+main section#enlaces-03 nav a#img-05 {width: 40%; height: 100%; position: relative; float: left; margin: 0; overflow: hidden; background: url(../img/img-05.jpg) no-repeat center center; background-size: cover;}
+
+main section#enlaces-03 nav a#img-05 div {width: 200px; height: auto; position: absolute; top: 174px; left: 80px; z-index: 3;}
+main section#enlaces-03 nav a#img-05 div h3 {font-size: 33px; color: #fff; margin: 0; font-weight: 500; letter-spacing: 0.05em; padding: 0 0 10px 0; }
+main section#enlaces-03 nav a#img-05 div hr {color: #fff; border: solid 1px; margin: 0 0 15px 0; }
+main section#enlaces-03 nav a#img-05 div span { color: #fff; font-size: 14px; letter-spacing: 0.15em; text-transform: uppercase; font-weight: 600;}
+
+main section#enlaces-03 nav a#img-05 div#fondo-azul { width: 100%; height: 100%; display: block; margin: 0 auto; float: none; position: absolute; top: 0; left: 0; z-index: 1; background: rgb(119 141 220 / 80%); transition: all 0.3s ease-in;}
+
+main section#enlaces-03 nav a#img-05:hover div#fondo-azul { transition: all 0.3s ease-in; opacity: 0;}
+
+main section#enlaces-03 nav a#img-06 {width: 60%; height: 100%; position: relative; float: left; margin: 0; overflow: hidden; background: url(../img/img-06.jpg) no-repeat center center; background-size: cover; }
+
+main section#enlaces-03 nav a#img-06 div { width: 200px; height: auto; position: absolute; top: 174px; left: 80px; z-index: 3;}
+main section#enlaces-03 nav a#img-06 div h3 {font-size: 33px; color: #fff; margin: 0; font-weight: 500; letter-spacing: 0.05em; padding: 0 0 10px 0; }
+main section#enlaces-03 nav a#img-06 div hr { color: #fff; border: solid 1px; margin: 0 0 15px 0;}
+main section#enlaces-03 nav a#img-06 div span {color: #fff; font-size: 14px; letter-spacing: 0.15em; text-transform: uppercase; font-weight: 600; }
+
+main section#enlaces-03 nav a#img-06 div#fondo-verde { width: 100%; height: 100%; display: block; margin: 0 auto; float: none; position: absolute; top: 0; left: 0; z-index: 1; background: rgb(121 191 130 / 80%); transition: all 0.3s ease-in;}
+
+main section#enlaces-03 nav a#img-06:hover div#fondo-verde { transition: all 0.3s ease-in; opacity: 0;}
+
+/*Section:Libero*/
+
+main section#libero { width: 100%; height: auto; position: relative; float: none; margin: 0;background: #1d1d1d;}
+
+main section#libero article { width: 1200px; height: 450px; position: relative; float: none; margin: 0 auto; }
+main section#libero article h2 { color: #fff; font-size: 30px; font-weight: 500; margin: 0; padding: 80px 0 10px;}
+main section#libero article hr { width: 200px; height: auto; float: left;}
+main section#libero article p { float: left; color: #fff; padding: 16px 0; font-size: 20px; font-weight: 200; line-height: 1.5em; }
+
+main section#libero article a { color: #fff; text-decoration: none; font-size: 14px; font-weight: 450; text-transform: uppercase; letter-spacing: 0.25em; margin: 0px 0; display: block; width: 149px; height: auto; float: left; padding: 15px 30px; border: solid 2px #fff; transition: all 0.3s ease-in;}
+
+main section#libero article a:hover { transition: all 0.3s ease-in; border: solid 2px #505050; color: #505050;}
+
+
+/*FOOTER*/
+
+footer { width: 100%; height: auto; position: relative; float: none; margin: 0 auto;}
+
+footer article { width: 600px; height: 210px; position: relative; float: left; margin: 0 70px; }
+footer article div#superior { width: 302px; height: auto; position: relative; float: left; margin: 0; padding: 66px 0 20px; }
+footer article div#superior nav { width: 320px; height: 50px; position: relative; float: left; margin: 0; }
+footer article div#superior nav a { width: 40px; height: 40px; float: left; position: relative; color: #0a0a0a; background: #ffffff; border-radius: 50%; text-align: center; margin: 0 24px 0 0; transition: all 0.3s ease-in; font-size: 22px; }
+footer article div#superior nav a i { padding: 8px 0 0;}
+footer article div#superior nav a:hover {transition: all 0.3s ease-in; background: #505050; }
+
+footer article div#inferior { width: 475px; height: auto; float: left; position: relative; margin: 0; }
+
+footer article div#inferior span { margin: 0 17px 0 0; font-size: 16px; color: #333333; }
+footer article div#inferior span a { font-size: 14px; color: #333333; font-weight: 300; transition: all 0.3s ease-in; }
+footer article div#inferior span a:hover { transition: all 0.3s ease-in; color: #505050; }
+
+/*Zona de Media Queries*/
+
+/*Ajustes para Tablets*/
+
+@media only screen and (max-width: 1199px){
+
+
+    aside#menu-movil a#abrir { top: 14px; }
+    aside#menu-movil a#cerrar { top: 14px; }
+
+    header article {width: 95%;}
+
+    main section#introduccion article { width: 90%; height: 550px; }
+
+    main section#introduccion article h1 { font-size: 52px; }
+    main section#introduccion article div#texto p { font-size: 12px;}
+    main section#introduccion article div#texto a { font-size: 12px;}
+    
+    
+    
+     }
+    
+    
+     @media only screen and (max-width: 899px){
+
+
+        main section#introduccion article h1 { font-size: 32px; padding: 185px 0 17px; }
+
+        main section#introduccion article div#texto { width: 470px; height: 50px; position: relative; float: left; margin: 23px 0 0;}
+
+        main section#introduccion article div#texto p { font-size: 12px; width: 390px; }
+        main section#introduccion article div#texto a { font-size: 12px; margin: 33px 0 0; }
+
+
+        main section#enlaces-01 nav { width: 100%; height: 340px; position: relative; float: none; margin: 0;}
+        main section#enlaces-01 nav a#img-01 { width: 50%;}
+        main section#enlaces-01 nav a#img-02 { width: 50%;}
+        main section#enlaces-01 nav a#img-01 div { top: 132px;}
+        main section#enlaces-01 nav a#img-02 div { top: 132px;}
+
+
+        main section#enlaces-02 nav { width: 100%; height: 340px; position: relative; float: none; margin: 0;}
+        main section#enlaces-02 nav a#img-03 { width: 50%;}
+        main section#enlaces-02 nav a#img-04 { width: 50%;}
+        main section#enlaces-02 nav a#img-03 div { top: 132px;}
+        main section#enlaces-02 nav a#img-04 div { top: 132px;}
+
+
+        main section#enlaces-03 nav { width: 100%; height: 340px; position: relative; float: none; margin: 0;}
+        main section#enlaces-03 nav a#img-05 { width: 50%;}
+        main section#enlaces-03 nav a#img-06 { width: 50%;}
+        main section#enlaces-03 nav a#img-05 div { top: 132px;}
+        main section#enlaces-03 nav a#img-06 div { top: 132px;}
+
+        main section#libero article { width: 90%; }
+        main section#libero article h2 {  font-size: 28px; padding: 80px 0 10px;}
+        main section#libero article hr { width: 190px;}
+        main section#libero article p { padding: 12px 0 16px 0; font-size: 18px;}
+        main section#libero article a {  font-size: 12px;  margin: 0px 0; width: 140px;}
+
+
+        footer article { width: 420px; height: 202px; position: relative; float: left; margin: 0 20px;}
+        footer article div#superior { width: 320px; height: auto; position: relative; float: left; margin: 0; padding: 66px 0 20px; }
+        footer article div#superior nav { width: 280px; height: 50px; position: relative; float: left; margin: 0;}
+        footer article div#superior nav a {  width: 36px; height: 36px; margin: 0 20px 0 0; font-size: 20px;}
+
+        footer article div#inferior { width: 475px; }
+
+        footer article div#inferior span { margin: 0 16px 0 0; }
+    
+    }
+
+
+     /*Ajustes para móviles*/
+
+     @media only screen and (max-width: 599px){ 
+
+        aside#menu-movil a#abrir { top: 4px; left: -92px;}
+        aside#menu-movil a#cerrar { top: 4px; left: 10px;}
+    
+        header { height: 45px;}
+        header article { width: 95%; height: 45px;  }
+        header article a.logo {  width: 174px; font-size: 14px; padding: 14px 0; float: left; }
+
+        main section#enlaces-01 nav { width: 100%; height: 250px; position: relative; float: none; margin: 0;}
+        main section#enlaces-01 nav a#img-01 { width: 50%;}
+        main section#enlaces-01 nav a#img-01 div { top: 96px; left: 40px; width: 159px;}
+        main section#enlaces-01 nav a#img-01 div hr {color: #fff;border: solid 1px;margin: 0 0 12px 0;}
+        main section#enlaces-01 nav a#img-01 div h3 { font-size: 25px; color: #fff; margin: 0; font-weight: 500; letter-spacing: 0.05em; padding: 0 0 10px 0;}
+        main section#enlaces-01 nav a#img-01 div span { font-size: 12px; letter-spacing: 0.15em;}
+
+
+        main section#enlaces-01 nav a#img-02 { width: 50%;}
+        main section#enlaces-01 nav a#img-02 div {top: 96px; left: 40px; width: 159px;}
+        main section#enlaces-01 nav a#img-02 div hr {color: #fff;border: solid 1px;margin: 0 0 12px 0;}
+        main section#enlaces-01 nav a#img-02 div h3 { font-size: 25px; font-weight: 500; letter-spacing: 0.05em; padding: 0 0 10px 0; }
+        main section#enlaces-01 nav a#img-02 div span { font-size: 12px; letter-spacing: 0.15em;}
+
+
+        main section#enlaces-02 nav { width: 100%; height: 250px; position: relative; float: none; margin: 0;}
+        main section#enlaces-02 nav a#img-03 { width: 50%;}
+        
+        main section#enlaces-02 nav a#img-03 div { top: 96px; left: 40px; width: 159px; }
+        main section#enlaces-02 nav a#img-03 div h3 { font-size: 25px; color: #fff; margin: 0; font-weight: 500; letter-spacing: 0.05em; padding: 0 0 10px 0; }
+        main section#enlaces-02 nav a#img-03 div hr {color: #fff; border: solid 1px;margin: 0 0 12px 0;}
+        main section#enlaces-02 nav a#img-03 div span { font-size: 12px; letter-spacing: 0.15em;}
+
+
+        main section#enlaces-02 nav a#img-04 { width: 50%;}
+        main section#enlaces-02 nav a#img-04 div { top: 96px; left: 40px; width: 159px;}
+        main section#enlaces-02 nav a#img-04 div h3 { font-size: 25px; color: #fff; margin: 0; font-weight: 500; letter-spacing: 0.05em; padding: 0 0 10px 0;}
+        main section#enlaces-02 nav a#img-04 div hr {color: #fff;border: solid 1px;margin: 0 0 12px 0;}
+        main section#enlaces-02 nav a#img-04 div span { font-size: 12px; letter-spacing: 0.15em;}
+
+
+        main section#enlaces-03 nav { width: 100%; height: 250px; position: relative; float: none; margin: 0;}
+        main section#enlaces-03 nav a#img-05 { width: 50%;}
+        main section#enlaces-03 nav a#img-06 { width: 50%;}
+        main section#enlaces-03 nav a#img-05 div { top: 96px; left: 40px; width: 159px;}
+        main section#enlaces-03 nav a#img-05 div h3 { font-size: 25px; color: #fff; margin: 0; font-weight: 500; letter-spacing: 0.05em; padding: 0 0 10px 0;}
+        main section#enlaces-02 nav a#img-04 div hr {color: #fff;border: solid 1px;margin: 0 0 12px 0;}
+        main section#enlaces-03 nav a#img-05 div span { font-size: 12px; letter-spacing: 0.15em;}
+
+
+        main section#enlaces-03 nav a#img-06 div { top: 96px; left: 40px; width: 159px;}
+        main section#enlaces-03 nav a#img-06 div h3 { font-size: 25px; color: #fff; margin: 0; font-weight: 500; letter-spacing: 0.05em; padding: 0 0 10px 0;}
+        main section#enlaces-02 nav a#img-04 div hr {color: #fff;border: solid 1px;margin: 0 0 12px 0;}
+        main section#enlaces-03 nav a#img-06 div span { font-size: 12px; letter-spacing: 0.15em;}
+
+        main section#libero article h2 { font-size: 23px; padding: 54px 0 10px;}
+        main section#libero article hr { width: 145px;}
+        main section#libero article p { padding: 12px 0 16px 0; font-size: 17px;}
+
+
+
+     }
+
+     @media only screen and (max-width: 470px){ 
+
+        aside#menu-movil a#abrir { top: 4px; left: -92px;}
+        aside#menu-movil a#cerrar { top: 4px; left: 10px;}
+
+        header article a.logo span { display: none;}
+
+        main section#enlaces-01 nav { height: 600px; }
+        main section#enlaces-01 nav a#img-01 { width: 100%; height: 300px;}
+        main section#enlaces-01 nav a#img-02 { width: 100%; height: 300px;}
+
+        main section#enlaces-02 nav { height: 600px; }
+        main section#enlaces-02 nav a#img-03 { width: 100%; height: 300px;}
+        main section#enlaces-02 nav a#img-04 { width: 100%; height: 300px;}
+
+        main section#enlaces-03 nav { height: 600px; }
+        main section#enlaces-03 nav a#img-05 { width: 100%; height: 300px;}
+        main section#enlaces-03 nav a#img-06 { width: 100%; height: 300px;}
+
+    
+
+
+    
+        
+    
+      }
+    
+    @media only screen and (max-width: 399px){  
+    
+    main section#grid-instagram article a { width: 100%; height: auto;}
+    }
+    
+
+
+
+
+
+
+
+
+
